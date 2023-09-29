@@ -18,4 +18,4 @@ GITHUB ACTION  // DD
 -> Créer : build.yml
 -> Créer pip
 -> push sur github
--> et là ça fonctionne -> peut etre
+-> et là ça fonctionne -> peut etre -> prsque
