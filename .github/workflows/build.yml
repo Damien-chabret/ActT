@@ -9,7 +9,7 @@ jobs:
     build:
         runs-on: ubuntu-latest
         
-        steps:
+        steps: 
         - name: Checkout Repository
           uses: actions/checkout@v2
         
@@ -17,4 +17,4 @@ jobs:
           run: |
             docker build -t svelte-docker .
             docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
-            docker push svelte-docker
+            docker push damienchabret/svelte-docker
