@@ -2,6 +2,8 @@
     import { destroy_each } from "svelte/internal";
     import Example from "./Model/example.svelte";
     import Activites from "./Model/activites/activites.svelte";
+
+	let name = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH";
 </script>
 
 <main>
