@@ -1,16 +1,13 @@
 <script>
-    import Activity from "./Model/activity/activity.svelte";
+    import { destroy_each } from "svelte/internal";
     import Example from "./Model/example.svelte";
-
-	let name = "Act Time - Version docker bb 2 - Test 15H00 supe ttest"
+    import Activites from "./Model/activites/activites.svelte";
 </script>
 
 <main>
 	<h1> {name} </h1>
 
-	<Activity name="Skateboard" description="Pratique du skateboard"></Activity>
-	<Activity name="Cuisine" description="Pratique de la cuisine"></Activity>
-	<Activity name="Jeux-vidéos" description="Jouer aux jeux-vidéos"></Activity>
+	<Activites></Activites>
 
 	<Example></Example>
 </main>

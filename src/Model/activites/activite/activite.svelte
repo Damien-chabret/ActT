@@ -48,7 +48,7 @@
 
 </script>
 
-<div class="activity">
+<div class="activite">
     <h1> { name } </h1>
     <p> { description }</p>
 
@@ -63,10 +63,9 @@ h1 {
     color: red;
 }
 
-.activity{
+.activite{
     background-color: wheat;
     width: 200px;
     height: 200px;
-
 }
 </style>
