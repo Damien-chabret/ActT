@@ -17,4 +17,5 @@ jobs:
           run: |
             docker build -t svelte-docker .
             docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
+            docker tag svelte-docker damienchabret/svelte-docker
             docker push damienchabret/svelte-docker

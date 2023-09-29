@@ -7,7 +7,7 @@
 <main>
 	<h1> {name} </h1>
 
-	<Activites></Activites>
+	<!-- <Activites></Activites> -->
 
 	<Example></Example>
 </main>
