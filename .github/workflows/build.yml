@@ -12,6 +12,6 @@ jobs:
         steps:
         - name: Build and push Docker image
           run: |
-            docker build . -t svelte-docker .
+            docker build . -t svelte-docker
             echo "$DOCKER_USERNAME" | docker login -u "$DOCKER_PASSWORD" --password-stdin
             docker push my-docker-image
