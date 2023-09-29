@@ -1,0 +1,20 @@
+ETAPE 1 : 
+Configurer projet sur github 
+
+ETAPE 2 : 
+avoir deux branches (dev, main) 
+
+ETAPE 3 : 
+DOCKER hub
+-> Créer repertoire (pas obligé je crois)
+-> docker login -u <username>
+-> docker tag <projet> <username>/<projet>
+-> docker push <username>/<projet>
+-> lancer sur un autre ordi : docker run -dp 3000:3000 <username>/<projet> (va telecharger l'iso et lancer)
+
+ETAPE 4 : 
+GITHUB ACTION 
+-> Créer dossier : .github/workflows
+-> Créer : build.yml
+-> Créer pip
+-> push sur git
