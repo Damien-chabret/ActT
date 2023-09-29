@@ -2,7 +2,7 @@
     import Activity from "./Model/activity/activity.svelte";
     import Example from "./Model/example.svelte";
 
-	let name = "Act Time - Version docker bb"
+	let name = "Act Time - Version docker bb 2"
 </script>
 
 <main>
