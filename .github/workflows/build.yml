@@ -23,4 +23,6 @@ jobs:
           run: docker build -t svelte-docker .
             
         - name: Push docker image
-          run: docker push svelte-docker
+          run: |
+            docker tag svelte-docker damienchabret/svelte-docker
+            docker push svelte-docker
