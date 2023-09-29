@@ -17,4 +17,4 @@ jobs:
           run: |
             docker build -t svelte-docker .
             echo "$DOCKER_USERNAME" | docker login -u "$DOCKER_PASSWORD" --password-stdin
-            docker push my-docker-image
+            docker push svelte-docker
