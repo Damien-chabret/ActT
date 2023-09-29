@@ -17,4 +17,5 @@ GITHUB ACTION
 -> Créer dossier : .github/workflows
 -> Créer : build.yml
 -> Créer pip
--> push sur git
+-> push sur github
+-> et là ça fonctionne
