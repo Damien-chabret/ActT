@@ -25,4 +25,4 @@ jobs:
         - name: Push docker image
           run: |
             docker tag svelte-docker damienchabret/svelte-docker
-            docker push svelte-docker
+            docker push damienchabret/svelte-docker
