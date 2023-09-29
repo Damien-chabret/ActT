@@ -13,7 +13,7 @@ DOCKER hub
 -> lancer sur un autre ordi : docker run -dp 3000:3000 <username>/<projet> (va telecharger l'iso et lancer)
 
 ETAPE 4 : 
-GITHUB ACTION 
+GITHUB ACTION  // DD
 -> Créer dossier : .github/workflows
 -> Créer : build.yml
 -> Créer pip
